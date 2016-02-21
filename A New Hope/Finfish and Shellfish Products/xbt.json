@@ -1,0 +1,134 @@
+            {
+                "ndbno": "15012",
+                "name": "Fish, caviar, black and red, granular",
+                "weight": 16.0,
+                "measure": "1.0 tbsp",
+                "nutrients": [
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "3.94",
+                        "gm": 24.6
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "2.86",
+                        "gm": 17.9
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "nutrient": "Carbohydrate, by difference",
+                        "unit": "g",
+                        "value": "0.64",
+                        "gm": 4.0
+                    },
+                    {
+                        "nutrient_id": "318",
+                        "nutrient": "Vitamin A, IU",
+                        "unit": "IU",
+                        "value": "145",
+                        "gm": 905.0
+                    },
+                    {
+                        "nutrient_id": "328",
+                        "nutrient": "Vitamin D (D2 + D3)",
+                        "unit": "\u00B5g",
+                        "value": "0.5",
+                        "gm": 2.9
+                    },
+                    {
+                        "nutrient_id": "301",
+                        "nutrient": "Calcium, Ca",
+                        "unit": "mg",
+                        "value": "44",
+                        "gm": 275.0
+                    },
+                    {
+                        "nutrient_id": "304",
+                        "nutrient": "Magnesium, Mg",
+                        "unit": "mg",
+                        "value": "48",
+                        "gm": 300.0
+                    },
+                    {
+                        "nutrient_id": "303",
+                        "nutrient": "Iron, Fe",
+                        "unit": "mg",
+                        "value": "1.90",
+                        "gm": 11.88
+                    },
+                    {
+                        "nutrient_id": "306",
+                        "nutrient": "Potassium, K",
+                        "unit": "mg",
+                        "value": "29",
+                        "gm": 181.0
+                    },
+                    {
+                        "nutrient_id": "312",
+                        "nutrient": "Copper, Cu",
+                        "unit": "mg",
+                        "value": "0.018",
+                        "gm": 0.11
+                    },
+                    {
+                        "nutrient_id": "309",
+                        "nutrient": "Zinc, Zn",
+                        "unit": "mg",
+                        "value": "0.15",
+                        "gm": 0.95
+                    },
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "42",
+                        "gm": 264.0
+                    },
+                    {
+                        "nutrient_id": "291",
+                        "nutrient": "Fiber, total dietary",
+                        "unit": "g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "94",
+                        "gm": 588.0
+                    },
+                    {
+                        "nutrient_id": "418",
+                        "nutrient": "Vitamin B-12",
+                        "unit": "\u00B5g",
+                        "value": "3.20",
+                        "gm": 20.0
+                    },
+                    {
+                        "nutrient_id": "401",
+                        "nutrient": "Vitamin C, total ascorbic acid",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "0.00",
+                        "gm": 0.0
+                    },
+                    {
+                        "nutrient_id": "255",
+                        "nutrient": "Water",
+                        "unit": "g",
+                        "value": "7.60",
+                        "gm": 47.5
+                    }
+                ]
+            }

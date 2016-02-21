@@ -1,0 +1,134 @@
+            {
+                "ndbno": "21255",
+                "name": "BURGER KING, DOUBLE WHOPPER, with cheese",
+                "weight": 399.0,
+                "measure": "1.0 item",
+                "nutrients": [
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "57.74",
+                        "gm": 14.47
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "68.07",
+                        "gm": 17.06
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "nutrient": "Carbohydrate, by difference",
+                        "unit": "g",
+                        "value": "53.94",
+                        "gm": 13.52
+                    },
+                    {
+                        "nutrient_id": "318",
+                        "nutrient": "Vitamin A, IU",
+                        "unit": "IU",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "328",
+                        "nutrient": "Vitamin D (D2 + D3)",
+                        "unit": "\u00B5g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "301",
+                        "nutrient": "Calcium, Ca",
+                        "unit": "mg",
+                        "value": "311",
+                        "gm": 78.0
+                    },
+                    {
+                        "nutrient_id": "304",
+                        "nutrient": "Magnesium, Mg",
+                        "unit": "mg",
+                        "value": "76",
+                        "gm": 19.0
+                    },
+                    {
+                        "nutrient_id": "303",
+                        "nutrient": "Iron, Fe",
+                        "unit": "mg",
+                        "value": "21.15",
+                        "gm": 5.3
+                    },
+                    {
+                        "nutrient_id": "306",
+                        "nutrient": "Potassium, K",
+                        "unit": "mg",
+                        "value": "754",
+                        "gm": 189.0
+                    },
+                    {
+                        "nutrient_id": "312",
+                        "nutrient": "Copper, Cu",
+                        "unit": "mg",
+                        "value": "0.311",
+                        "gm": 0.078
+                    },
+                    {
+                        "nutrient_id": "309",
+                        "nutrient": "Zinc, Zn",
+                        "unit": "mg",
+                        "value": "13.96",
+                        "gm": 3.5
+                    },
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "1061",
+                        "gm": 266.0
+                    },
+                    {
+                        "nutrient_id": "291",
+                        "nutrient": "Fiber, total dietary",
+                        "unit": "g",
+                        "value": "6.4",
+                        "gm": 1.6
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "188",
+                        "gm": 47.0
+                    },
+                    {
+                        "nutrient_id": "418",
+                        "nutrient": "Vitamin B-12",
+                        "unit": "\u00B5g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "401",
+                        "nutrient": "Vitamin C, total ascorbic acid",
+                        "unit": "mg",
+                        "value": "0.8",
+                        "gm": 0.2
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "14.40",
+                        "gm": 3.61
+                    },
+                    {
+                        "nutrient_id": "255",
+                        "nutrient": "Water",
+                        "unit": "g",
+                        "value": "212.59",
+                        "gm": 53.28
+                    }
+                ]
+            }

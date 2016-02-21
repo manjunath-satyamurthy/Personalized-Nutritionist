@@ -1,0 +1,134 @@
+            {
+                "ndbno": "28006",
+                "name": "KELLOGG'S, CINNABON, Pancakes, Original",
+                "weight": 105.0,
+                "measure": "3.0 pancakes",
+                "nutrients": [
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "5.25",
+                        "gm": 5.0
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "8.08",
+                        "gm": 7.7
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "nutrient": "Carbohydrate, by difference",
+                        "unit": "g",
+                        "value": "45.26",
+                        "gm": 43.1
+                    },
+                    {
+                        "nutrient_id": "318",
+                        "nutrient": "Vitamin A, IU",
+                        "unit": "IU",
+                        "value": "1000",
+                        "gm": 952.0
+                    },
+                    {
+                        "nutrient_id": "328",
+                        "nutrient": "Vitamin D (D2 + D3)",
+                        "unit": "\u00B5g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "301",
+                        "nutrient": "Calcium, Ca",
+                        "unit": "mg",
+                        "value": "80",
+                        "gm": 76.0
+                    },
+                    {
+                        "nutrient_id": "304",
+                        "nutrient": "Magnesium, Mg",
+                        "unit": "mg",
+                        "value": "0",
+                        "gm": 0.0
+                    },
+                    {
+                        "nutrient_id": "303",
+                        "nutrient": "Iron, Fe",
+                        "unit": "mg",
+                        "value": "4.52",
+                        "gm": 4.3
+                    },
+                    {
+                        "nutrient_id": "306",
+                        "nutrient": "Potassium, K",
+                        "unit": "mg",
+                        "value": "52",
+                        "gm": 50.0
+                    },
+                    {
+                        "nutrient_id": "312",
+                        "nutrient": "Copper, Cu",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "309",
+                        "nutrient": "Zinc, Zn",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "271",
+                        "gm": 258.0
+                    },
+                    {
+                        "nutrient_id": "291",
+                        "nutrient": "Fiber, total dietary",
+                        "unit": "g",
+                        "value": "1.2",
+                        "gm": 1.1
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "15",
+                        "gm": 14.0
+                    },
+                    {
+                        "nutrient_id": "418",
+                        "nutrient": "Vitamin B-12",
+                        "unit": "\u00B5g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "401",
+                        "nutrient": "Vitamin C, total ascorbic acid",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "15.64",
+                        "gm": 14.9
+                    },
+                    {
+                        "nutrient_id": "255",
+                        "nutrient": "Water",
+                        "unit": "g",
+                        "value": "43.68",
+                        "gm": 41.6
+                    }
+                ]
+            }

@@ -1,0 +1,134 @@
+            {
+                "ndbno": "08710",
+                "name": "Cereals ready-to-eat, KELLOGG'S, SPECIAL K gluten free, touch of brown sugar",
+                "weight": 49.0,
+                "measure": "1.0 Cup (1 NLEA serving)",
+                "nutrients": [
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "2.98",
+                        "gm": 6.09
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "1.22",
+                        "gm": 2.5
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "nutrient": "Carbohydrate, by difference",
+                        "unit": "g",
+                        "value": "42.38",
+                        "gm": 86.5
+                    },
+                    {
+                        "nutrient_id": "318",
+                        "nutrient": "Vitamin A, IU",
+                        "unit": "IU",
+                        "value": "750",
+                        "gm": 1531.0
+                    },
+                    {
+                        "nutrient_id": "328",
+                        "nutrient": "Vitamin D (D2 + D3)",
+                        "unit": "\u00B5g",
+                        "value": "1.0",
+                        "gm": 2.0
+                    },
+                    {
+                        "nutrient_id": "301",
+                        "nutrient": "Calcium, Ca",
+                        "unit": "mg",
+                        "value": "80",
+                        "gm": 163.0
+                    },
+                    {
+                        "nutrient_id": "304",
+                        "nutrient": "Magnesium, Mg",
+                        "unit": "mg",
+                        "value": "53",
+                        "gm": 109.0
+                    },
+                    {
+                        "nutrient_id": "303",
+                        "nutrient": "Iron, Fe",
+                        "unit": "mg",
+                        "value": "9.01",
+                        "gm": 18.39
+                    },
+                    {
+                        "nutrient_id": "306",
+                        "nutrient": "Potassium, K",
+                        "unit": "mg",
+                        "value": "104",
+                        "gm": 212.0
+                    },
+                    {
+                        "nutrient_id": "312",
+                        "nutrient": "Copper, Cu",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "309",
+                        "nutrient": "Zinc, Zn",
+                        "unit": "mg",
+                        "value": "0.68",
+                        "gm": 1.39
+                    },
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "181",
+                        "gm": 369.0
+                    },
+                    {
+                        "nutrient_id": "291",
+                        "nutrient": "Fiber, total dietary",
+                        "unit": "g",
+                        "value": "4.6",
+                        "gm": 9.3
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "0",
+                        "gm": 0.0
+                    },
+                    {
+                        "nutrient_id": "418",
+                        "nutrient": "Vitamin B-12",
+                        "unit": "\u00B5g",
+                        "value": "2.11",
+                        "gm": 4.3
+                    },
+                    {
+                        "nutrient_id": "401",
+                        "nutrient": "Vitamin C, total ascorbic acid",
+                        "unit": "mg",
+                        "value": "18.1",
+                        "gm": 37.0
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "9.36",
+                        "gm": 19.1
+                    },
+                    {
+                        "nutrient_id": "255",
+                        "nutrient": "Water",
+                        "unit": "g",
+                        "value": "1.47",
+                        "gm": 3.0
+                    }
+                ]
+            }

@@ -1,0 +1,134 @@
+            {
+                "ndbno": "10225",
+                "name": "Pork, fresh, loin, top loin (roasts), boneless, separable lean only, raw",
+                "weight": 85.0,
+                "measure": "3.0 oz",
+                "nutrients": [
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "19.03",
+                        "gm": 22.39
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "3.45",
+                        "gm": 4.06
+                    },
+                    {
+                        "nutrient_id": "205",
+                        "nutrient": "Carbohydrate, by difference",
+                        "unit": "g",
+                        "value": "0.00",
+                        "gm": 0.0
+                    },
+                    {
+                        "nutrient_id": "318",
+                        "nutrient": "Vitamin A, IU",
+                        "unit": "IU",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "328",
+                        "nutrient": "Vitamin D (D2 + D3)",
+                        "unit": "\u00B5g",
+                        "value": "0.3",
+                        "gm": 0.4
+                    },
+                    {
+                        "nutrient_id": "301",
+                        "nutrient": "Calcium, Ca",
+                        "unit": "mg",
+                        "value": "4",
+                        "gm": 5.0
+                    },
+                    {
+                        "nutrient_id": "304",
+                        "nutrient": "Magnesium, Mg",
+                        "unit": "mg",
+                        "value": "22",
+                        "gm": 26.0
+                    },
+                    {
+                        "nutrient_id": "303",
+                        "nutrient": "Iron, Fe",
+                        "unit": "mg",
+                        "value": "0.46",
+                        "gm": 0.54
+                    },
+                    {
+                        "nutrient_id": "306",
+                        "nutrient": "Potassium, K",
+                        "unit": "mg",
+                        "value": "318",
+                        "gm": 374.0
+                    },
+                    {
+                        "nutrient_id": "312",
+                        "nutrient": "Copper, Cu",
+                        "unit": "mg",
+                        "value": "0.049",
+                        "gm": 0.058
+                    },
+                    {
+                        "nutrient_id": "309",
+                        "nutrient": "Zinc, Zn",
+                        "unit": "mg",
+                        "value": "1.53",
+                        "gm": 1.8
+                    },
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "112",
+                        "gm": 132.0
+                    },
+                    {
+                        "nutrient_id": "291",
+                        "nutrient": "Fiber, total dietary",
+                        "unit": "g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "54",
+                        "gm": 63.0
+                    },
+                    {
+                        "nutrient_id": "418",
+                        "nutrient": "Vitamin B-12",
+                        "unit": "\u00B5g",
+                        "value": "0.43",
+                        "gm": 0.51
+                    },
+                    {
+                        "nutrient_id": "401",
+                        "nutrient": "Vitamin C, total ascorbic acid",
+                        "unit": "mg",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "255",
+                        "nutrient": "Water",
+                        "unit": "g",
+                        "value": "62.29",
+                        "gm": 73.28
+                    }
+                ]
+            }

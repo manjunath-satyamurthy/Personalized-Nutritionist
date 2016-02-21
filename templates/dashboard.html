@@ -1,0 +1,219 @@
+{% extends "base.html" %}
+
+
+{% block heading %}
+Dashboard
+{% endblock %}
+
+{% block custom_link %}
+<link href="static/css/select2.min.css" rel="stylesheet">
+{% endblock %}
+
+{% block link %}
+<link href="static/css/dataTables.bootstrap.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+  <div class="col-md-6">
+    <div class="box box-primary box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Food Distribution</h3>
+      </div>  
+      <div class="box-body">
+      <table class="table table-bordered" id="meals"> 
+        <thead>
+          <th>Meal 1</th>
+          <th>Meal 2</th>
+          <th>Meal 3</th>
+        </thead>
+        {% for meal in meals %}
+          <tr>
+            <td>{{ meal[0] }} <a data-name="{{ meal[0] }}" class="like fa fa-fw fa-thumbs-up pull-right"></a></td>
+            <td>{{ meal[1] }} <a data-name="{{ meal[1] }}" class="like fa fa-fw fa-thumbs-up pull-right"></a></td>
+            <td>{{ meal[2] }} <a data-name="{{ meal[2] }}" class="like fa fa-fw fa-thumbs-up pull-right"></a></td>
+          </tr>
+        {% endfor %}
+
+      </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="box box-danger box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Diet Plan</h3>
+      </div>
+      <div class="box-body">
+      <table class="table table-bordered"> 
+      <tr>
+        <th style="text-align:center;">Username</th>
+        <td style="text-align:center;">{{ username }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Calorie</th>
+        <td style="text-align:center;">{{ calorie }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Min Carbs</th>
+        <td style="text-align:center;">{{ carbsMin }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Max Carbs</th>
+        <td style="text-align:center;">{{ carbsMax }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Min Protiens</th>
+        <td style="text-align:center;">{{ protiensMin }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Max Protiens</th>
+        <td style="text-align:center;">{{ protiensMax }}</td>
+      </tr>
+      <tr>
+        <th style="text-align:center;">Fats</th>
+        <td style="text-align:center;">{{ fats }}</td>
+      </tr>
+      </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="box box-success box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Liked Foods</h3>
+      </div>
+      <div class="box-body">
+      <table id="likedFoods" class="table table-bordered"> 
+      <thead>
+        <th style="text-align:center;">Foods</th>
+      </thead>
+        {% for likedFood in likedFoods %}
+        <tr>
+          <td style="text-align:center;">{{ likedFood[0]['name'] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+    <div class="box box-warning box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Suggested Foods Based On Likes</h3>
+      </div>
+      <div class="box-body">
+      <table id="suggestedFoods" class="table table-bordered"> 
+      <thead>
+        <th style="text-align:center;">Foods</th>
+      </thead>
+        {% for suggestedFood in suggestedFoods %}
+        <tr>
+          <td style="text-align:center;">{{ suggestedFood[0]['name'] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="box box-danger box-solid">
+      <div class="box-header with-border">
+        <h3 class="box-title">Update Food Intake</h3>
+      </div>
+      <div class="box-body">
+        <div class="form-group">
+          <p style="text-align: center;"><b>Select Food</b></p>
+          <select id="updateIntake" class="select2 form-control">
+            <option selected="selected">None</option>
+            {% for food in foods %}
+              <option value="{{ food[0]['ndbno'] }}">{{ food[0]['name'] }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <button id="updateIntakeButton" class="btn btn-block btn-primary">Update</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="static/js/jquery.dataTables.min.js"></script>
+<script src="static/js/dataTables.bootstrap.min.js"></script>
+<script src="static/js/select2.full.min.js"></script>
+<script type="text/javascript">
+  $("#updateIntake").select2();
+
+  $('#meals').DataTable({
+    "scrollY": "700px",
+    "scrollCollapse": true,
+    "paging": false,
+    "bFilter": false
+  });
+
+  $('#likedFoods').DataTable({
+    "scrollY": "186px",
+    "scrollCollapse": true,
+    "paging": false,
+    "bFilter": false
+  });
+
+  $('#suggestedFoods').DataTable({
+    "scrollY": "186px",
+    "scrollCollapse": true,
+    "paging": false,
+    "bFilter": false
+  });
+
+  $("td").on('click', '.like', function(e){
+    foodName = $(e.currentTarget).data("name");
+    $.ajax({
+      url: '/likeFood',
+      method: 'post',
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({'foodName': foodName}),
+      complete: function(result, status) {
+        response = JSON.parse(result.responseText)
+        console.log(response)
+        if (response['status'] == 'success'){
+          alert(response['result']);
+          window.location.reload();
+        }
+        else {
+          alert(result.responseText);
+        }
+      }
+   });
+  });
+
+  $("#updateIntakeButton").on("click", function(){
+    foodId = $("#updateIntake").val();
+    $.ajax({
+      url: '/updateIntake',
+      method: 'post',
+      contentType: 'application/json;charset=UTF-8',
+      data: JSON.stringify({'foodId': foodId}),
+      complete: function(result, status) {
+        response = JSON.parse(result.responseText)
+        console.log(response)
+        if (response['status'] == 'success'){
+          alert(response['result']);
+          window.location.reload();
+        }
+        else {
+          alert(result.responseText);
+        }
+      }
+   });
+
+  });
+</script>>
+{% endblock %}

@@ -1,0 +1,9 @@
+match (fd: Food)-[r:is]->(v:nonVeg) where (fd.totalCalorie > 2000 and fd.totalCalorie < 3000) and (fd.carbs > 10 and fd.carbs < 30) and (fd.fats > 10 and fd.fats < 20) and (fd.lipids > 10 and fd.lipids < 40) and (fd.protiens > 10 and fd.protiens < 15) return fd
+
+"match (m:Meal1), (f: Food) where id(m)= "++" and id(f)="" create unique (m)-[r:canHave]->(f) return r"
+
+match(f:Food)<-[r:likes]-(p:person)-[:follows]-(d:dietPlan) where d.type='weightLoss' return count(r),f.name,d.type ORDER BY count(r) DESC
+
+match(p:person)-[r:on]-(n) return (1.0-(count(r)/10.0))*100, p
+
+match(p:person{id:2})-[:likes*2..3]-(f:food) where not (f.name CONTAINS 'chicken' or f.name CONTAINS 'Chicken') return f

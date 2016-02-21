@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Create Diet</title>
+</head>
+<body>
+<form method="post" action="/createDiet">
+
+	<div>
+		<label>Calorie Count</label>
+		<input name="calorieCount">
+	</div>
+
+	<div>
+		<label>Carbohydrates</label>
+		<input name="carbs" value="In Percentage">
+	</div>
+
+	<div>
+		<label>Lipids</label>
+		<input name="lipids" value="In Percentage">
+	</div>
+
+	<div>
+		<label>Fats</label>
+		<input name="fats" value="In Percentage">
+	</div>
+
+	<div>
+		<label>Proteins</label>
+		<input name="proteins" value="In Percentage">
+	</div>
+
+	<input type="radio" name="type" value="lose">Lose Weight<br>
+	<input type="radio" name="type" value="gain">Gain Weight<br>
+	<input type="radio" name="type" value="retain">Retain Weight<br>
+
+	<input type="checkbox" name="relate">Relate all foods<br>
+
+	<input type="submit">
+
+
+</form>
+	
+
+
+</body>
+</html>

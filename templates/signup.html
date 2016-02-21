@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Login</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+  </head>
+
+
+  <body class="login-page">
+    <div class="login-box">
+      <div class="login-logo">
+        <b>Nutritionist</b>
+      </div>
+      <div class="login-box-body">
+        <p class="login-box-msg">Sign Up</p>
+        <form action="/signup" method="post">
+          <div class="form-group has-feedback">
+            <label>User Id</label>
+            <input name="userId" class="form-control" placeholder="User Id" />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Username</label>
+            <input name="userName" class="form-control" placeholder="Username" />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Height</label>
+            <input name="height" class="form-control" placeholder="in cm" />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Weight</label>
+            <input name="weight" class="form-control" placeholder="in cm" />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Date</label>
+            <input name="dob" class="form-control" placeholder="dd/mm/yyyy" />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Goal - Lose/Gain</label>
+            <input name="goalKg" class="form-control" placeholder="Less than 1kg/week " />
+          </div>
+          <div class="form-group has-feedback">
+            <label>Gender</label>
+            <div class="radio">
+              <label><input type="radio" value="M" name="gender">Male</label>
+              <label><input type="radio" value="F" name="gender">Female</label>
+            </div>
+          </div>
+
+          <div class="form-group has-feedback">
+            <label>Food Preference</label>
+            <div class="radio">
+              <label><input type="radio" value="none" name="category">None</label>
+              <label><input type="radio" value="veg" name="category">Veg</label>
+              <label><input type="radio" value="nonVeg" name="category">Nonveg</label>
+            </div>
+          </div>
+
+          <div class="form-group has-feedback">
+            <label>Goal</label>
+            <div class="radio">
+              <label><input type="radio" value="weightLoss" name="goal">Lose Weight</label>
+              <label><input type="radio" value="massGain" name="goal">Gain Weight</label>
+              <label><input type="radio" value="maintainWeight" name="goal">Retain Weight</label>
+            </div>
+          </div>
+
+          <div class="form-group has-feedback">
+              <label>Activity Level</label>
+              <div class="radio">
+                <label><input type="radio" value="1.2" name="activity">Sedentary</label>
+                <label><input type="radio" value="1.375" name="activity">Light</label>
+                <label><input type="radio" value="1.55" name="activity">Moderate</label>
+                <label><input type="radio" value="1.725" name="activity">Very</label>
+                <label><input type="radio" value="1.9" name="activity">Extreme</label>
+              </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-xs-4">
+              <button align="center" type="submit" class="btn btn-primary btn-block btn-flat">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
